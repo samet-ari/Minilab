@@ -67,4 +67,3 @@ minilab/
 Projet MiniLab - Infrastructure Linux Entreprise
 
 ---
-*Enterprise Infrastructure Project - Learning & Implementation*
