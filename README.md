@@ -1,5 +1,4 @@
-# Minilab
-Enterprise Linux Infrastructure with DHCP/DNS/LDAP/NFS
+
 
 # 🏢 MiniLab - Enterprise Linux Infrastructure
 
