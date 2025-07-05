@@ -1,0 +1,13 @@
+$TTL    604800
+@       IN      SOA     dhcp1.linuxisgood.local. admin.linuxisgood.local. (
+                              2         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+
+@       IN      NS      dhcp1.linuxisgood.local.
+
+; PTR Records
+253     IN      PTR     dhcp1.linuxisgood.local.
+254     IN      PTR     nfs-server.linuxisgood.local.

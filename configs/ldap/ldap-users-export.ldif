@@ -1,0 +1,144 @@
+dn: dc=linuxisgood,dc=local
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: linuxisgood.local
+dc: linuxisgood
+structuralObjectClass: organization
+entryUUID: ae7d9c28-e2e7-103f-8dad-132d1c49207e
+creatorsName: cn=admin,dc=linuxisgood,dc=local
+createTimestamp: 20250621123330Z
+entryCSN: 20250621123330.056112Z#000000#000#000000
+modifiersName: cn=admin,dc=linuxisgood,dc=local
+modifyTimestamp: 20250621123330Z
+
+dn: ou=people,dc=linuxisgood,dc=local
+objectClass: organizationalUnit
+ou: people
+structuralObjectClass: organizationalUnit
+entryUUID: 0d6cd88e-e3a1-103f-9d31-f56b66eadf0f
+creatorsName: cn=admin,dc=linuxisgood,dc=local
+createTimestamp: 20250622104026Z
+entryCSN: 20250622104026.224719Z#000000#000#000000
+modifiersName: cn=admin,dc=linuxisgood,dc=local
+modifyTimestamp: 20250622104026Z
+
+dn: ou=groups,dc=linuxisgood,dc=local
+objectClass: organizationalUnit
+ou: groups
+structuralObjectClass: organizationalUnit
+entryUUID: 0d6d56f6-e3a1-103f-9d32-f56b66eadf0f
+creatorsName: cn=admin,dc=linuxisgood,dc=local
+createTimestamp: 20250622104026Z
+entryCSN: 20250622104026.228056Z#000000#000#000000
+modifiersName: cn=admin,dc=linuxisgood,dc=local
+modifyTimestamp: 20250622104026Z
+
+dn: uid=testuser,ou=people,dc=linuxisgood,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: testuser
+sn: User
+givenName: Test
+cn: Test User
+displayName: Test User
+uidNumber: 10001
+gidNumber: 10001
+gecos: Test User
+loginShell: /bin/bash
+homeDirectory: /home/testuser
+structuralObjectClass: inetOrgPerson
+entryUUID: 1f000ed6-e3a1-103f-9d33-f56b66eadf0f
+creatorsName: cn=admin,dc=linuxisgood,dc=local
+createTimestamp: 20250622104055Z
+userPassword:: e1NTSEF9djNMUjFjZTVJQzJjZ2QxcUMxY1o0RWVLMUwwLzBQNWk=
+entryCSN: 20250701104555.017530Z#000000#000#000000
+modifiersName: cn=admin,dc=linuxisgood,dc=local
+modifyTimestamp: 20250701104555Z
+
+dn: cn=users,ou=groups,dc=linuxisgood,dc=local
+objectClass: posixGroup
+cn: users
+gidNumber: 10001
+memberUid: testuser
+memberUid: silvia.popescu
+memberUid: pauline.joy
+memberUid: samet.ari
+structuralObjectClass: posixGroup
+entryUUID: 29a3f032-e3a1-103f-9d34-f56b66eadf0f
+creatorsName: cn=admin,dc=linuxisgood,dc=local
+createTimestamp: 20250622104113Z
+entryCSN: 20250705162357.270364Z#000000#000#000000
+modifiersName: cn=admin,dc=linuxisgood,dc=local
+modifyTimestamp: 20250705162357Z
+
+dn: uid=silvia.popescu,ou=people,dc=linuxisgood,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: silvia.popescu
+sn: Popescu
+givenName: Silvia
+cn: Silvia Popescu
+displayName: Silvia Popescu
+uidNumber: 10002
+gidNumber: 10001
+gecos: Silvia Popescu
+loginShell: /bin/bash
+homeDirectory: /home/silvia.popescu
+structuralObjectClass: inetOrgPerson
+entryUUID: 154cfbc8-ee06-103f-9892-31ad7efb80f3
+creatorsName: cn=admin,dc=linuxisgood,dc=local
+createTimestamp: 20250705160850Z
+userPassword:: e1NTSEF9IC9YbUErMG5IQk40clMyZnU3OGF1ZnZQNTV5WGhIQklJ
+entryCSN: 20250705164954.373190Z#000000#000#000000
+modifiersName: cn=admin,dc=linuxisgood,dc=local
+modifyTimestamp: 20250705164954Z
+
+dn: uid=pauline.joy,ou=people,dc=linuxisgood,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: pauline.joy
+sn: Joy
+givenName: Pauline
+cn: Pauline Joy
+displayName: Pauline Joy
+uidNumber: 10003
+gidNumber: 10001
+gecos: Pauline Joy
+loginShell: /bin/bash
+homeDirectory: /home/pauline.joy
+structuralObjectClass: inetOrgPerson
+entryUUID: 1bc32536-ee06-103f-9893-31ad7efb80f3
+creatorsName: cn=admin,dc=linuxisgood,dc=local
+createTimestamp: 20250705160901Z
+userPassword:: e1NTSEF9JChzbGFwcGFzc3dkIC1zICJwYXVsaW5lMTIzIik=
+entryCSN: 20250705163739.075721Z#000000#000#000000
+modifiersName: cn=admin,dc=linuxisgood,dc=local
+modifyTimestamp: 20250705163739Z
+
+dn: uid=samet.ari,ou=people,dc=linuxisgood,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: samet.ari
+sn: Ari
+givenName: Samet
+cn: Samet Ari
+displayName: Samet Ari
+uidNumber: 10004
+gidNumber: 10001
+gecos: Samet Ari
+loginShell: /bin/bash
+homeDirectory: /home/samet.ari
+structuralObjectClass: inetOrgPerson
+entryUUID: 3b81d022-ee0e-103f-9895-31ad7efb80f3
+creatorsName: cn=admin,dc=linuxisgood,dc=local
+createTimestamp: 20250705170710Z
+userPassword:: e1NTSEF9IG50VXpXY0t2NkNsajl5NUpkdkVCcFBoZ2hOa0MxZGtP
+entryCSN: 20250705171049.485187Z#000000#000#000000
+modifiersName: cn=admin,dc=linuxisgood,dc=local
+modifyTimestamp: 20250705171049Z
+

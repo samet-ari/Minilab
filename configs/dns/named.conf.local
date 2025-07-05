@@ -1,0 +1,23 @@
+//
+// DNS Master Configuration for linuxisgood.local
+//
+
+// Forward zone
+zone "linuxisgood.local" {
+    type master;
+    file "/etc/bind/db.linuxisgood.local";
+    allow-update { none; };
+    allow-transfer { 192.168.15.252; };
+    notify yes;
+    also-notify { 192.168.15.252; };
+};
+
+// Reverse zone (192.168.15.x)
+zone "15.168.192.in-addr.arpa" {
+    type master;
+    file "/etc/bind/db.192.168.15";
+    allow-update { none; };
+    allow-transfer { 192.168.15.252; };
+    notify yes;
+    also-notify { 192.168.15.252; };
+};
