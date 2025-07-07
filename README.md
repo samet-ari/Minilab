@@ -60,9 +60,4 @@ minilab/
 | pauline.joy | 10003 | /home/pauline.joy | ✅ LDAP |
 | samet.ari | 10004 | /home/samet.ari | ✅ LDAP |
 
-## 👤 Auteur
-
-**Samet Ari** - Administrateur Système Linux  
-Projet MiniLab - Infrastructure Linux Entreprise
-
 ---
